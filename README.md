@@ -9,7 +9,7 @@ Here are some preview screenshots of the customized Shopify theme:
 <img width="800" height="600" alt="Homepage Navigation" src="https://github.com/user-attachments/assets/e438104a-dbbe-43c0-ab25-458d6bfe14c2" />
 
 ### Category Cards
-Each subject is displayed as a card with a title, description, and image. These cards guide users to explore different product or content categories.
+Each subject is displayed as a card with a title, description, and image. 
 <img width="800" height="600" alt="Category Cards" src="https://github.com/user-attachments/assets/84cd2146-3da0-46f0-92c7-23b76ecd47e8" />
 
 
