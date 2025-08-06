@@ -6,17 +6,23 @@ A custom Shopify theme for a second-hand bookstore marketplace landing page.
 Here are some preview screenshots of the customized Shopify theme:
 
 ### Homepage Navigation page
-<img width="1393" height="1024" alt="image" src="https://github.com/user-attachments/assets/c2644aac-ce1c-4b11-9f27-e4b29238c7e6" />
+<img width="800" height="600" alt="Homepage Navigation" src="https://github.com/user-attachments/assets/c2644aac-ce1c-4b11-9f27-e4b29238c7e6" />
+
 ### Category Cards
 Each subject is displayed as a card with a title, description, and image. These cards guide users to explore different product or content categories.
-<img width="1186" height="1134" alt="image" src="https://github.com/user-attachments/assets/90aced0a-386e-4164-9318-36576b26b4e3" />
+<img width="700" height="600" alt="Category Cards" src="https://github.com/user-attachments/assets/90aced0a-386e-4164-9318-36576b26b4e3" />
+
 ### Feedbacks
-<img width="1406" height="1230" alt="image" src="https://github.com/user-attachments/assets/2ebc9c71-e8d8-473f-b747-6d603a43a138" />
+<img width="800" height="600" alt="Customer Feedbacks" src="https://github.com/user-attachments/assets/2ebc9c71-e8d8-473f-b747-6d603a43a138" />
 ---
-### Live Preview Testing:
+
+## Live Preview Testing
+
 Previewing the complete layout in a test environment.
+
 > **Live Preview:** [Shopify Store Link](https://zydemo-store.myshopify.com/)  
 > **Password:** `123456`
+
 ---
 
 ## Project Structure
