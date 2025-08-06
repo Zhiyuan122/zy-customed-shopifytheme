@@ -10,11 +10,11 @@ Here are some preview screenshots of the customized Shopify theme:
 
 ### Category Cards
 Each subject is displayed as a card with a title, description, and image. These cards guide users to explore different product or content categories.
-<img width="700" height="600" alt="Category Cards" src="https://github.com/user-attachments/assets/90aced0a-386e-4164-9318-36576b26b4e3" />
+<img width="800" height="600" alt="Category Cards" src="https://github.com/user-attachments/assets/90aced0a-386e-4164-9318-36576b26b4e3" />
 
 ### Feedbacks
 <img width="800" height="600" alt="Customer Feedbacks" src="https://github.com/user-attachments/assets/2ebc9c71-e8d8-473f-b747-6d603a43a138" />
----
+
 
 ## Live Preview Testing
 
@@ -23,7 +23,7 @@ Previewing the complete layout in a test environment.
 > **Live Preview:** [Shopify Store Link](https://zydemo-store.myshopify.com/)  
 > **Password:** `123456`
 
----
+
 
 ## Project Structure
 
@@ -115,13 +115,6 @@ Each section is self-contained with its own styles and functionality:
   - Auto-play
   - Responsive behavior
 
-## Responsive Design
-
-The theme is fully responsive with breakpoints at:
-- Desktop: 1200px+
-- Tablet: 768px - 1199px
-- Mobile: < 768px
-
 ## Browser Support
 
 - Chrome (latest)
@@ -190,28 +183,13 @@ Replace placeholder images with your own:
 - Auto-play every 5 seconds
 - Manual navigation with arrows
 - Dot indicators
-- Touch/swipe support
 - Keyboard navigation (arrow keys)
-
-### Form Handling
-- Email validation
-- Success messages
-- Form reset after submission
 
 ## Performance Optimizations
 
 - Lazy loading for images
 - Debounced resize handlers
 - Efficient CSS animations
-- Minimal JavaScript footprint
-
-## Accessibility
-
-- Semantic HTML structure
-- Keyboard navigation support
-- Focus states for interactive elements
-- Alt text for images
-- ARIA labels where appropriate
 
 ## Future Enhancements
 
