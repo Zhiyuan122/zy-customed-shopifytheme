@@ -10,11 +10,11 @@ Here are some preview screenshots of the customized Shopify theme:
 
 ### Category Cards
 Each subject is displayed as a card with a title, description, and image. These cards guide users to explore different product or content categories.
-<img width="700" height="600" alt="Category Cards" src="https://github.com/user-attachments/assets/90aced0a-386e-4164-9318-36576b26b4e3" />
+<img width="800" height="600" alt="Category Cards" src="https://github.com/user-attachments/assets/84cd2146-3da0-46f0-92c7-23b76ecd47e8" />
+
 
 ### Feedbacks
-<img width="800" height="600" alt="Customer Feedbacks" src="https://github.com/user-attachments/assets/2ebc9c71-e8d8-473f-b747-6d603a43a138" />
-
+<img width="800" height="600" alt="Customer Feedbacks" src="https://github.com/user-attachments/assets/f7087ddb-954d-4cce-8a98-bf50bbdc6e97" />
 
 ## Live Preview Testing
 
