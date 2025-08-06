@@ -1,0 +1,62 @@
+{
+  "current": {
+    "primary_color": "#007bff",
+    "secondary_color": "#0056b3",
+    "background_color": "#f8f9fa",
+    "heading_font": "helvetica_n4",
+    "body_font": "helvetica_n4",
+    "social_facebook_link": "",
+    "social_twitter_link": "",
+    "social_instagram_link": "",
+    "sections": {
+      "hero-banner": {
+        "type": "hero-banner",
+        "settings": {
+          "title": "Discover Amazing Second-Hand Books",
+          "subtitle": "Find your next favorite read from our curated collection of pre-loved books",
+          "discount_text": "30% OFF",
+          "discount_description": "On all first-time purchases",
+          "cta_text": "Start a Project",
+          "cta_link": "#categories"
+        }
+      },
+      "book-categories": {
+        "type": "book-categories",
+        "settings": {
+          "title": "Explore Our Categories",
+          "subtitle": "Find the perfect book in your favorite category"
+        }
+      },
+      "discount-signup": {
+        "type": "discount-signup",
+        "settings": {
+          "title": "Get Exclusive Deals",
+          "subtitle": "Subscribe to our newsletter and receive 15% off your first purchase plus early access to new arrivals"
+        }
+      },
+      "testimonials": {
+        "type": "testimonials",
+        "settings": {
+          "title": "What Our Customers Say",
+          "subtitle": "Real reviews from book lovers like you"
+        }
+      },
+      "cta-footer": {
+        "type": "cta-footer",
+        "settings": {
+          "title": "Ready to get started?",
+          "subtitle": "Join thousands of book lovers who have found their perfect reads with us",
+          "cta_text": "Create a Book Now",
+          "cta_link": "#"
+        }
+      }
+    },
+    "content_for_index": [
+      "hero-banner",
+      "book-categories", 
+      "discount-signup",
+      "testimonials",
+      "cta-footer"
+    ]
+  }
+} 
