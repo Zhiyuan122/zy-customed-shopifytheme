@@ -1,0 +1,93 @@
+<!-- Testimonial Card Snippet -->
+<div class="testimonial-card">
+    <div class="testimonial-content">
+        <div class="testimonial-stars">
+            {% for i in (1..rating) %}
+                <span class="star">★</span>
+            {% endfor %}
+        </div>
+        <p class="testimonial-text">{{ content }}</p>
+        <div class="testimonial-author">
+            <div class="author-info">
+                <h4 class="author-name">{{ name }}</h4>
+                <p class="author-role">{{ role }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.testimonial-card {
+    min-width: 300px;
+    max-width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-stars {
+    margin-bottom: 1rem;
+}
+
+.star {
+    color: #ffd700;
+    font-size: 1.2rem;
+    margin-right: 2px;
+}
+
+.testimonial-text {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex-grow: 1;
+    font-style: italic;
+}
+
+.testimonial-author {
+    border-top: 1px solid #eee;
+    padding-top: 1rem;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.25rem;
+    font-size: 1.1rem;
+}
+
+.author-role {
+    color: #666;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        min-width: 280px;
+        padding: 25px;
+        margin: 0 10px;
+    }
+    
+    .testimonial-text {
+        font-size: 0.95rem;
+    }
+}
+</style> 
