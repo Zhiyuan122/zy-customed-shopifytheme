@@ -6,7 +6,7 @@ A custom Shopify theme for a second-hand bookstore marketplace landing page.
 Here are some preview screenshots of the customized Shopify theme:
 
 ### Homepage Navigation page
-<img width="800" height="600" alt="Homepage Navigation" src="https://github.com/user-attachments/assets/c2644aac-ce1c-4b11-9f27-e4b29238c7e6" />
+<img width="800" height="600" alt="Homepage Navigation" src="https://github.com/user-attachments/assets/e438104a-dbbe-43c0-ab25-458d6bfe14c2" />
 
 ### Category Cards
 Each subject is displayed as a card with a title, description, and image. These cards guide users to explore different product or content categories.
