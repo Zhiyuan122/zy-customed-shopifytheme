@@ -1,0 +1,80 @@
+<!-- Book Categories Section -->
+<section class="book-categories" id="categories">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Explore Our Categories</h2>
+            <p class="section-subtitle">Find the perfect book in your favorite category</p>
+        </div>
+        
+        <div class="categories-grid">
+            {% render 'category-card', 
+                title: 'Literature',
+                image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+                description: 'Classic and contemporary literature'
+            %}
+            
+            {% render 'category-card', 
+                title: 'Mathematics',
+                image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80',
+                description: 'Advanced mathematics and textbooks'
+            %}
+            
+            {% render 'category-card', 
+                title: 'Physics',
+                image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+                description: 'Physics theory and applications'
+            %}
+            
+            {% render 'category-card', 
+                title: 'Computer Science',
+                image: 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+                description: 'Programming and computer science'
+            %}
+        </div>
+    </div>
+</section>
+
+<style>
+.book-categories {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.section-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .categories-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+}
+</style> 
